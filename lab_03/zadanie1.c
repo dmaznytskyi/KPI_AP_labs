@@ -6,7 +6,7 @@
 /*   By: dmaznytskyi <dmaznytskyi@gmail.com>             | |   | || || || |   */
 /*                                                       | |__/ / | || || |   */
 /*   Created: 2016/11/03 02:37:35 by dmaznytskyi         |_____/  |_||_||_|   */
-/*   Updated: 2016/11/15 00:07:40 by dmaznytskyi                              */
+/*   Updated: 2016/11/20 21:59:40 by dmaznytskyi                              */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -164,6 +164,12 @@ void	zadanie1()
 						case 5: to = 0.00001; break ;
 						case 6: to = 0.000001; break ;
 					}
+				}
+				else
+				{
+					error(13);
+					error(2);
+					return ;
 				}
 				i++;
 			}
