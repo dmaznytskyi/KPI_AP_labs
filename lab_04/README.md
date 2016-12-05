@@ -21,7 +21,7 @@ Preferable to compile and run under UNIX systems
 To compile under other OS do:
 
 ```sh
-$ ... lab_04.c error.c func.c zadanie1.c zadanie2.c
+$ ... lab_04.c error.c func.c zadanie1.c zadanie2.c ft_atoi.c
 ```
 
 Also include header file:
