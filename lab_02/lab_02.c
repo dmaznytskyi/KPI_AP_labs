@@ -6,7 +6,7 @@
 /*   By: dmaznytskyi <dmaznytskyi@gmail.com>             | |   | || || || |   */
 /*                                                       | |__/ / | || || |   */
 /*   Created: 2016/11/01 03:41:30 by dmaznytskyi         |_____/  |_||_||_|   */
-/*   Updated: 2016/11/01 19:21:29 by dmaznytskyi                              */
+/*   Updated: 2017/01/20 20:30:33 by dmaznytskyi                              */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ void	input_provider(void)
 	int	flag;
 
 	flag = 0;
-	while (true)
+	while (1)
 	{
 		printf("Введіть сторони трикутника(вони повинні бути більше нуля!)\n");	
 		for (int i = 0; i < 3; i++)

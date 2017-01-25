@@ -6,7 +6,7 @@
 /*   By: dmaznytskyi <dmaznytskyi@gmail.com>             | |   | || || || |   */
 /*                                                       | |__/ / | || || |   */
 /*   Created: 2016/11/01 03:49:51 by dmaznytskyi         |_____/  |_||_||_|   */
-/*   Updated: 2016/11/01 17:00:36 by dmaznytskyi                              */
+/*   Updated: 2017/01/11 15:21:56 by dmaznytskyi                              */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define HEADER_H
 
 # include <stdio.h>
-# include <curses.h>
 # include <math.h>
 # include <string.h>
 # include <stdlib.h>

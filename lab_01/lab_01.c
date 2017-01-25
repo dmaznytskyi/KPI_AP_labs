@@ -6,7 +6,7 @@
 /*   By: dmaznytskyi <dmaznytskyi@gmail.com>             | |   | || || || |   */
 /*                                                       | |__/ / | || || |   */
 /*   Created: 2016/10/31 13:35:05 by dmaznytskyi         |_____/  |_||_||_|   */
-/*   Updated: 2016/11/01 03:53:19 by dmaznytskyi                              */
+/*   Updated: 2017/01/20 19:58:24 by dmaznytskyi                              */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(void)
 
 	a = 0;
 	str = malloc(sizeof(int));
-	write(1, "Enter number\n", 13);
+	write(1, "Введіть число\n", 26);
 	read(0, str, 4096);
 	a = ft_atoi(str);
 	a = roman(a, 1000, 'M');
